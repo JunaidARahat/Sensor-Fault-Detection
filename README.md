@@ -11,12 +11,14 @@ In this project, the system in focus is the Air Pressure system (APS) which gene
 
 The problem is to reduce the cost due to unnecessary repairs. So it is required to minimize the false predictions.
 ## Tech Stack Used
+
 1. Python 
 2. FastAPI 
 3. Machine learning algorithms
 4. Docker
 5. MongoDB
 ## Work Flows
+
 1. Update constants
 2. Config_entity
 3. Artifact_entity
@@ -75,7 +77,7 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
 export AWS_DEFAULT_REGION=<AWS_DEFAULT_REGION>
 
-export MONGODB_URL="mongodb+srv://<username>:<password>@ineuron-ai-projects.7eh1w4s.mongodb.net/?retryWrites=true&w=majority"
+export MONGODB_URL=""
 
 ```
 
@@ -114,12 +116,12 @@ docker run -d -p 8080:8080 <IMAGE_NAME>
 To run the project  first execute the below commmand.
 MONGO DB URL: 
 ```
-mongodb+srv://avnish:XglZZ9OkjjUw74pZ@ineuron-ai-projects.7eh1w4s.mongodb.net/admin?authSource=admin&replicaSet=atlas-okvkrd-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true
+mongodb+srv://junaidarahat:<password>@cluster0.dchcgoq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 ```
 windows user
 
 ```
-MONGO_DB_URL=mongodb+srv://avnish:XglZZ9OkjjUw74pZ@ineuron-ai-projects.7eh1w4s.mongodb.net/admin?authSource=admin&replicaSet=atlas-okvkrd-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true
+MONGO_DB_URL=mongodb+srv://:<password>@cluster0.dchcgoq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 ```
 
 Linux user
